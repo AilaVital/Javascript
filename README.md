@@ -68,6 +68,9 @@ Voltando para a estante que imaginamos o DizerOi seria um bloquinho da nossa est
 
 
 
+
+
+
 ## Atividades desenvolvidas
 Escreva aqui as atividades desenvolvidas em sala e para casa. Você pode detelhar a atividade e usar links das atividades do codepen e vídeos desenvolvidos em sala. 
 
