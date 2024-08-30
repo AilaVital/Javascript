@@ -4,6 +4,7 @@ Boas vindas! Este é seu caderno virtual. Aqui você deverá guardar todos os co
 <div align="center">
   
 # *Um pouco sobre história*
+### (JavaScript)
 
 O javascript foi desenvolvido com o intuito de tornar mais interativo a relação de diversos documentos entre si. Através de Brendan Eich (funcionário de uma empresa chamada Netscape a própria empresa que criou a mozilla) foi o responsável por criar essa linguagem de programação tão conhecida nos dias atuais.
 Muitas pessoas, confudem as vezes javascript, java e EcmaScript, explicando de uma forma bem prática e objetiva, java foi o primeiro a ser criado e se tornou muito popular, saindo em diversas noticias como "Java:A linguagem do futuro". O ex-funcionário da Netscape juntamente com sua equipe, numa jogada de marketing pensou "poxa, já que todos estão falando sobre java, java pra lá, java pra cá, vamos mudar invés de ser livescript (o primeiro nome da linguagem) vamos tirar o 'live' e pôr o 'java' já que está tão bem falado esse termo", e foi assim que se originou o javascript, mas, é importante ressaltar que apesar dos dois levarem o termo 'java' em seu começo, ambos não tem nada haver. O Ecmascript já é uma pegada diferente, por causa de uma confusão enorme entre a Microsoft (que copiou a ideia da Netscape, na criação da internet explorer apenas dando algumas melhoorias ao comando primário) e a Netscape, em uma jogada de mestre a netscape correu atrás de padronizar sua linguagem, através de uma empresa de padronização chamada Ecma e foi ai que surgiu o EcmaScript, uma versão padronizada do Js para evitar futuros conflitos com grandes empresas.
@@ -61,6 +62,12 @@ assim como a let ela também tem escopo de bloco.
 segundo passo é você denominar o nome da variável (por exemplo, DizerOi) e por fim eu digo para o computador que DizerOi é igual (é necessário utilizar o sinal de igual como mostra na imagem) ao valor da minha variável (no caso do exemplo acima, DizerOi tem a palavra atribuida *OI*)
 
 Voltando para a estante que imaginamos o DizerOi seria um bloquinho da nossa estante e ocupando esse bloquinho estaria a palavra escrita *OI*
+
+<div align="center">
+
+# *String*
+String é um dado do tipo primitivo, onde o computador reconhece de forma literal o texto envolvido no programa. Na maioria dos casos, quando utilizamos esse tipo de componente
+
 
 
 
