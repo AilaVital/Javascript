@@ -66,8 +66,23 @@ Voltando para a estante que imaginamos o DizerOi seria um bloquinho da nossa est
 <div align="center">
 
 # *String*
-String é um dado do tipo primitivo, onde o computador reconhece de forma literal o texto envolvido no programa. Na maioria dos casos, quando utilizamos esse tipo de componente
+String é um dado do tipo primitivo, onde o computador reconhece de forma literal o texto envolvido no programa. Na maioria dos casos, quando utilizamos esse tipo de dado é comum usarmos o sinal de aspas "" , crase `` ou apóstrofo '' 
 
+``` js
+console.log ("Exemplo1")
+console.log (`Exemplo2`)
+console.log ('Exemplo3')
+```
+
+### *Concactando string*
+Concactar é um termo que utilizamos quando queremos ligar duas strings: Para concactar temos 3 métodos
+``` js
+console.log ('Primeiro'+''+"Exemplo")
+console.log (`Segundo'+"Exemplo")
+console.log (`Terceiro ${Ex}`)
+//Nota: depois desse sifrão o que está dentro das chaves consta como uma variável,
+//por isso deve-se atribuir um valor a ela para o codigo rodar corretamente.
+```
 
 
 
