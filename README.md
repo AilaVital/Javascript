@@ -87,6 +87,9 @@ console.log (`Terceiro ${Ex}`)
 <div align="center">
   
 Number são valores numéricos (Podem ser inteiros ou decimais)
+
+<div align="center">
+  
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq6e4KodwHTFcqVqcRaeyq99Wh9IPOahhF_w&s" width="510">
 
 <div align="center">
