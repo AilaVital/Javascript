@@ -84,6 +84,17 @@ console.log (`Terceiro ${Ex}`)
 //por isso deve-se atribuir um valor a ela para o codigo rodar corretamente.
 ```
 
+# *Operadores*
+
+Os operadores matématicos são de extrema importância na construção dos algoritmos, com eles podemos criar situações matemáticas e o próprio computador irá resolver (ex: equação do primeiro grau, uma fórmula de bhaskara, a velocidade média de um corpo e muito mais). Para isso utilizamos alguns sinais seja eles matemáticos ou de comparação:
+
+## *Matématicos:*
+- "+" Mais
+- "-" Menos
+- "*" Multiplicação
+- "/" Divisão
+- "%"
+
 
 
 
