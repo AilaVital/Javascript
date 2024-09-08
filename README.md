@@ -59,9 +59,9 @@ mas não pode ser redeclarado.
 - const: A const (constante) não pode ter seu valor reatribuído nem redeclarado. Diferentemente da let e da var. E
 assim como a let ela também tem escopo de bloco.
 
-segundo passo é você denominar o nome da variável (por exemplo, DizerOi) e por fim eu digo para o computador que DizerOi é igual (é necessário utilizar o sinal de igual como mostra na imagem) ao valor da minha variável (no caso do exemplo acima, DizerOi tem a palavra atribuida *OI*)
+Segundo passo é você denominar o nome da variável (por exemplo, DizerOi) e por fim eu digo para o computador que DizerOi é igual (é necessário utilizar o sinal de igual como mostra na imagem) ao valor da minha variável (no caso do exemplo acima, DizerOi tem a palavra atribuida *OI*).
 
-Voltando para a estante que imaginamos o DizerOi seria um bloquinho da nossa estante e ocupando esse bloquinho estaria a palavra escrita *OI*
+Voltando para a estante que imaginamos o DizerOi seria um bloquinho da nossa estante e ocupando esse bloquinho estaria a palavra escrita *OI*.
 
 <div align="center">
 
@@ -75,34 +75,83 @@ console.log ('Exemplo3')
 ```
 
 ### *Concactando string*
-Concactar é um termo que utilizamos quando queremos ligar duas strings: Para concactar temos 3 métodos
+Concactar é um termo que utilizamos quando queremos ligar duas strings: Para concactar temos 3 métodos:
 ``` js
+var Ex = "Exemplo"
 console.log ('Primeiro'+''+"Exemplo")
-console.log (`Segundo'+"Exemplo")
+console.log ("Segundo"+"Exemplo")
 console.log (`Terceiro ${Ex}`)
-//Nota: depois desse sifrão o que está dentro das chaves consta como uma variável,
-//por isso deve-se atribuir um valor a ela para o codigo rodar corretamente.
 ```
+# *Number*
 
+<div align="center">
+  
+Number são valores numéricos (Podem ser inteiros ou decimais)
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq6e4KodwHTFcqVqcRaeyq99Wh9IPOahhF_w&s" width="510">
+
+<div align="center">
+  
 # *Operadores*
 
-Os operadores matématicos são de extrema importância na construção dos algoritmos, com eles podemos criar situações matemáticas e o próprio computador irá resolver (ex: equação do primeiro grau, uma fórmula de bhaskara, a velocidade média de um corpo e muito mais). Para isso utilizamos alguns sinais seja eles matemáticos ou de comparação:
+Os operadores matématicos são de extrema importância na construção dos algoritmos, com eles podemos criar situações matemáticas e o próprio computador irá resolver (ex: equação do primeiro grau, uma fórmula de bhaskara, a velocidade média de um corpo e muito mais). Para isso utilizamos alguns sinais seja eles matemáticos, comparação e lógicos:
 
 ## *Matématicos:*
-- "+" Mais
-- "-" Menos
-- "*" Multiplicação
-- "/" Divisão
-- "%"
+- "+" Mais;
+- "-" Menos;
+- "*" Multiplicação;
+- "/" Divisão;
+- "%" Módulo (ou resto);
+- "**" Portência.
 
+## *Comparação:*
+- "==" Igual (Double equals);
+- "===" Igual (Triple equals);
+- ">" Maior que;
+- "<" Menor que;
+- ">=" Maior ou igual a;
+- "<=" Menor ou igual a;
+- "!==" Diferente;
+- "!=" Diferente;
 
+### Obs: Double equals
+é um modo de afirma que algo é correto mesmo não sendo inteiramente fato.
+Ex:
+``` js
+2==2 //true
+2=="2" //true
+```
+Note que ambos vão me retornar veradeiro(true), mesmo o primeiro exemplo ser dois numbers e o segundo ser composto por um number e uma string.
+### Obs: Triple equals
+é um modo onde analisa ao pé da letra se os dados apresentados possuem a mesma estrutura de dados (Number ou String).
+Ex:
+``` js
+2===2 //true
+2==="2" //false
+```
+Note que no primeiro caso ele me retorna verdadeiro(true) por se tratar de dois numbers e no segundo me retorna falso(false) justamente por identificar que um é um number e o outro uma string.
+Por isso recomendamos que as pessoas sempre utilize o triple equals, para evitar possíveis erros.
 
+## *Lógicos*
+Nesse tipo de operador temos dois sinais o "&&" que significa "E" e o "||" que significa "OU".
+<div align="center">
+  
+Vamos imaginar a seguinte situação...
 
+<div align="center">
+  
+Situação 1: Para eu ficar feliz, Mário *E* Ana deverão estar feliz
+Nota: Perceba que para que uma função ocorra, ou seja, para eu ficar feliz, as duas condições deveram ocorrer, que no caso Mário e Ana estarem felizes.
 
+<div align="center">
+  
+Situação 2: Para eu ficar feliz Bruno *OU* Arianne deverão estar feliz.
+Nota: Veja que diferente do caso 1, para que a função ocorra não obrigatóriamente as duas condições deverão ocorrer, só precisa que ou Bruno ou Arianne estejam felizes
 
+<div align="center">
+  
+<img src="https://i.pinimg.com/236x/2a/d7/9b/2ad79baf783bd0689e5d769615fc4291.jpg" width="510">
 
-
-
+# *Estrutura Condicional*
 
 ## Atividades desenvolvidas
 Escreva aqui as atividades desenvolvidas em sala e para casa. Você pode detelhar a atividade e usar links das atividades do codepen e vídeos desenvolvidos em sala. 
