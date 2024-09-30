@@ -155,7 +155,13 @@ Nota: Veja que diferente do caso 1, para que a função ocorra não obrigatória
 <img src="https://i.pinimg.com/236x/2a/d7/9b/2ad79baf783bd0689e5d769615fc4291.jpg" width="510">
 
 # *Estrutura Condicional*
-
+A estrutura condicional é um recurso muito utilizado nos algoritmos, quando precisams criar uma condição, por exemplo se acontecer tal coisa, execute isso, se não, então execute isso.
+Exemplificando:
+Se (10>=5) então 
+escreva 10 é maior que cinco
+se não então
+escreva 10 não é maior que cinco
+A sintexe no JavaScrip
 ## Atividades desenvolvidas
 Escreva aqui as atividades desenvolvidas em sala e para casa. Você pode detelhar a atividade e usar links das atividades do codepen e vídeos desenvolvidos em sala. 
 
