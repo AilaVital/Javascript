@@ -155,13 +155,118 @@ Nota: Veja que diferente do caso 1, para que a função ocorra não obrigatória
 <img src="https://i.pinimg.com/236x/2a/d7/9b/2ad79baf783bd0689e5d769615fc4291.jpg" width="510">
 
 # *Estrutura Condicional*
+## *If else*
 A estrutura condicional é um recurso muito utilizado nos algoritmos, quando precisams criar uma condição, por exemplo se acontecer tal coisa, execute isso, se não, então execute isso.
 Exemplificando:
-Se (10>=5) então 
+
+Se (10>=5) então
+
 escreva 10 é maior que cinco
+
 se não então
+
 escreva 10 não é maior que cinco
+
 A sintexe no JavaScrip
+
+``` js
+var A = 10
+var B = 5
+if (A>B){
+console.log ("10 é maior que 5")
+} else {
+console.log (5 é mnenor que 10)
+}
+```
+*OBS*: Se você quiser criar mais de duas condições, você irá colocar o "else if" da segunda em diante condição, e na sua última condição, você irá fechar a estrutura com o "else" como mostra o exemplo a cima.
+
+## *Switch Case*
+O switch case pode ser considerado como "Escolha caso", e como o próprio nome sugere, o código irá apresentar ao usuário diversas opções e ele fará a escolha da opção.
+
+<img src="https://puzzleweb.ru/images/teacher/switch.jpg">
+
+Lembre sempre de colocar em seu algoritmo, os comandos básicos do switch case, como: Switch(), case, break e o default...
+
+- *Switch*: Normalmente é um dado de entrada que vai ser comparado com as condições propostas.
+- *Case*: Condições propostas 
+- *Break*: É utilizado para "quebrar" a lógica da condição, para ser apresentada outra proposta\condição
+- *Default*: Esse comando deve estar presente no final de todo switch case, ele significa que, caso o dado de entrada não seja semelhante com nenhuma das opções acima, então aplicará a condição presente no default
+
+  ## *While*
+  O while pode ser considerado como "Enquanto", e normalmente esse comando é utilizado como uma espécie de contador, um looping.
+
+  <img src="https://pimylifeup.com/wp-content/uploads/2022/05/javascript-while-loop-thumbnail.png">
+
+    Nesse exemplo, podemos interpretar da seguinte maneira, Enquanto contador, for menor que cinco, então contador vai receber mais um, e escrever na tela "looping".
+
+  # *Arrays*
+
+Os arrays são como variáveis, mas diferentemente das variáveis simples, os arrys são variaveis compostas\matrizes,ou seja, ela pode ter vários valores atribuidos.
+
+Um fator, que vale a pena ressaltar, é que os arrays são indexados em zero, ou seja, seu primeiro elemento começa com seu índice em zero e segue a diante, caso o algoritmo procure um elemento inexistente o índice que irá retornar será o -1.
+
+### Como declarar uma Array?
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTouJTX1o3UkhmVId9zGPOZxRPA_QaXXSXSkoBBVIfK4Qn5EWsKmD2nm1J5yjNPRNncfXo&usqp=CAU" width="700" >
+
+Para declarar uma array precisamos declarar uma variável normalmete e logo em seguida adicionar os valores atribuidos a essa variável entre os colchetes, como mostra no exemplo acima.
+
+## Metódos de Arrays
+
+### Método atualizar:
+
+```js
+const livros = ["Javascript Assertivo", "Engenharia de Testes", "Clean code", "Scrum", "Guia HTML5 e CSS3", "MongoDB"]
+
+
+var inserir = prompt("Insira um novo livro: ")
+
+const atualizandoLivros = livros.splice(0, 0, inserir)
+//(índice localização, nº de elementos p/ deletar, adicionar)
+
+console.log(atualizandoLivros);
+
+console.log(livros)
+```
+
+### Método dividir:
+
+```js
+const livros = ["Javascript Assertivo", "Engenharia de Testes", "Clean code", "Scrum", "Guia HTML5 e CSS3", "MongoDB"]
+
+var tamanhoLivros = livros.length;
+//Length = contador
+
+var corredorA1 = livros.slice(0,tamanhoLivros/2);
+
+var corredorA2 = livros.slice(tamanhoLivros/2);
+
+console.log(`Os livros do corredor A1 são: `, corredorA1);
+
+console.log(`Os livros do corredor A1 são: `, corredorA2);
+```
+
+### Método concatenar
+
+```js
+const programação = ["Javascript Assertivo", "Engenharia de Testes", "Clean code", "Scrum", "Guia HTML5 e CSS3", "MongoDB"]
+
+const Hq = ["Superman", "X-man", "vingadores", "batman", "mulher maravilha", "feiticeira Escarlate"];
+
+const juntarLivros = programação.concat(Hq)
+
+console.log(juntarLivros)
+```
+
+### Método pesquisar
+
+```js
+const programação = ["Javascript Assertivo", "Engenharia de Testes", "Clean code", "Scrum", "Guia HTML5 e CSS3", "MongoDB"]
+console.log(programação.indexOf("Clean code"));
+console.log(programação.includes("Clean code"));
+```
+
+
 ## Atividades desenvolvidas
 Escreva aqui as atividades desenvolvidas em sala e para casa. Você pode detelhar a atividade e usar links das atividades do codepen e vídeos desenvolvidos em sala. 
 
