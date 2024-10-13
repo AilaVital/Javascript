@@ -453,6 +453,8 @@ https://codepen.io/A-Vital/pen/dyxpZZb
 # Obrigada por ler!
 ## Espero que tenha gostado do conteúdo
 
+<img src="https://raw.githubusercontent.com/devcode25/devcode25/refs/heads/main/gif.gif">
+
 
 
 
