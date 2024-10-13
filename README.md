@@ -156,7 +156,7 @@ Nota: Veja que diferente do caso 1, para que a função ocorra não obrigatória
 
 # *Estrutura Condicional*
 ## *If else*
-A estrutura condicional é um recurso muito utilizado nos algoritmos, quando precisams criar uma condição, por exemplo se acontecer tal coisa, execute isso, se não, então execute isso.
+A estrutura condicional é um recurso muito utilizado nos algoritmos, quando precisams criar uma condição, por exemplo, se acontecer tal coisa, execute isso, se não, então execute isso.
 Exemplificando:
 
 Se (10>=5) então
@@ -215,6 +215,8 @@ Para declarar uma array precisamos declarar uma variável normalmete e logo em s
 
 ### Método atualizar:
 
+Mostra, Deleta e Adiciona elementos de uma array.
+
 ```js
 const livros = ["Javascript Assertivo", "Engenharia de Testes", "Clean code", "Scrum", "Guia HTML5 e CSS3", "MongoDB"]
 
@@ -230,6 +232,11 @@ console.log(livros)
 ```
 
 ### Método dividir:
+
+Retorna uma cópia do array , passando dois parâmetros:
+
+O primeiro onde deve começar.
+O segundo onde dever terminar .
 
 ```js
 const livros = ["Javascript Assertivo", "Engenharia de Testes", "Clean code", "Scrum", "Guia HTML5 e CSS3", "MongoDB"]
@@ -248,6 +255,8 @@ console.log(`Os livros do corredor A1 são: `, corredorA2);
 
 ### Método concatenar
 
+Juntar dois ou mais arrays - retorna um novo array.
+
 ```js
 const programação = ["Javascript Assertivo", "Engenharia de Testes", "Clean code", "Scrum", "Guia HTML5 e CSS3", "MongoDB"]
 
@@ -260,14 +269,130 @@ console.log(juntarLivros)
 
 ### Método pesquisar
 
+Verificar se o elemento existe no array - retorna um valor boleano.
+
 ```js
 const programação = ["Javascript Assertivo", "Engenharia de Testes", "Clean code", "Scrum", "Guia HTML5 e CSS3", "MongoDB"]
 console.log(programação.indexOf("Clean code"));
 console.log(programação.includes("Clean code"));
 ```
 
+### Método adicionar (final)
 
-## Atividades desenvolvidas
-Escreva aqui as atividades desenvolvidas em sala e para casa. Você pode detelhar a atividade e usar links das atividades do codepen e vídeos desenvolvidos em sala. 
+Adicionar um ou mais elementos no final do array.
+
+```js
+const array = [1,2,3]
+console.log(array) // [1,2,3]
+
+array.push(4,5)
+console.log(array) // [1,2,3,4,5]
+```
+
+### Método deletar (final)
+
+Remover o último elemento do array.
+
+```js
+const array = [1,2,3]
+console.log(array) // [1,2,3]
+
+array.pop()
+console.log(array) // [1,2]
+```
+
+### Método adicionar (começo)
+
+Adicionar um ou mais elementos ao início do array.
+
+```js
+const array = [3,4,5]
+console.log(array) // [3,4,5]
+
+array.unshift(1,2)
+console.log(array) // [1,2,3,4,5]
+```
+
+### Método deletar (começo)
+
+Remover o primeiro elemento do array.
+
+```js 
+const array = [1,2,3]
+console.log(array) // [1,2,3]
+
+array.shift()
+console.log(array) // [2,3]
+```
+
+### Método String
+
+Juntar todos elementos de array em uma string e retorna esta string.
+
+Receber um parâmetro que separar os elementos do array.
+
+```js
+const array = ["a", "b", "c"]
+const string = array.join("-")
+
+console.log(array) // [ 'a', 'b', 'c' ]
+console.log(string) // a-b-c 
+```
+
+### Método posição
+
+Retorna o primeiro index do elemento encontrado no array.
+
+```js
+const array = ["a", "b", "c", "d", "c"]
+const index = array.indexOf("c")
+
+console.log(index) // 2
+```
+
+### Método reverter
+
+Inverte o array.
+
+```js
+const array = ["a", "b", "c", "d", "e"]
+console.log(array) // ['a','b','c','d','e' ]
+
+array.reverse()
+console.log(array); // ['e','d','c','b','a' ]
+```
+
+# *Função*
+
+As funções são blocos de instruções que devem ser executadas em um algoritmo quando são chamadas.
+
+<img src="https://diegomariano.com/wp-content/uploads/2022/07/interface-grafica-do-usuario-texto-aplicativo-d-7.png">
+
+Lembre sempre de colocar em seu algoritmo, os comandos básicos de qualquer função, como: function, titulo da função, parâmetro, chamada...
+
+- function: Se em seu algoritmo possuir uma função é interessante que você declare logo no início de seu programa para ficar mais organizado.
+- título da função: Pode ser qualquer nome, porém é aconselhável que você coloque um nome descritivo da sua função (como mostra no exemplo acima). 
+- Parâmetros: Os parâmetros (isto é, os parenteses presentes na sintaxe da função), podem aparecer vazios ou com algum dado de entrada (variável), se estiver vazio é como se a função já estivesse programada para acontecer daquela forma, se estiver com algum dado de entrada a função terá que ter algum valor recebido (como no exemplo acima, recebe algum nome como dado de entrada)
+- Chamada: A chamada é de suma importância, é com a chamada que a função irá ser executada, se você se esquecer da chamada sua função será anulada. Para "chamar" a função é nescessário que ao final do bloco da função, na próxima linha, você coloque o titulo da função e o parâmetro (obs: mesmo que o parâmetro esteja vazio você deve colocar).
+
+# Atividades desenvolvidas
+
+## Operadores matemáticos 
+
+Identificador de número Impa ou Par:
+
+https://codepen.io/A-Vital/pen/jOjwLRO
+
+Calculadora:
+
+https://codepen.io/A-Vital/pen/poXwrBJ
+
+Salário do funcionário:
+
+https://codepen.io/A-Vital/pen/dyBzjyw
+
+Média do aluno:
+###
+
 
 
