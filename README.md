@@ -392,7 +392,69 @@ Salário do funcionário:
 https://codepen.io/A-Vital/pen/dyBzjyw
 
 Média do aluno:
-###
+
+https://codepen.io/A-Vital/pen/yLdzrmr
+
+## Swich Case 
+
+Verd Fruit:
+
+https://codepen.io/A-Vital/pen/JjQOEQw
+
+Pesquisar livros:
+
+https://codepen.io/A-Vital/pen/YzoEZOW
+
+## Index.of
+
+Entrega de frutas:
+
+https://codepen.io/A-Vital/pen/GRbydKV
+
+## If else
+
+Autenticação:
+
+https://codepen.io/A-Vital/pen/OJeaZZg
+
+## Swich case,  else if, função, arrays
+
+Livraria Pensar:
+
+https://codepen.io/A-Vital/pen/yLdZPym
+
+## While, If else, função
+
+Jogo de adivinhação:
+
+https://codepen.io/A-Vital/pen/eYqOOYp
+
+## Função + case
+
+Feriados nacionais:
+
+https://codepen.io/A-Vital/pen/VwojJKZ
+
+## Arrays
+
+Splint, reverse e join:
+
+https://codepen.io/A-Vital/pen/zYgKPGa
+
+## Função + Arrays
+
+Seu computador:
+
+https://codepen.io/A-Vital/pen/dyxpZZb
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+# Obrigada por ler!
+## Espero que tenha gostado do conteúdo
+
+
+
 
 
 
