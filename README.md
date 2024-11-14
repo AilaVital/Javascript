@@ -375,6 +375,21 @@ Lembre sempre de colocar em seu algoritmo, os comandos básicos de qualquer fun�
 - Parâmetros: Os parâmetros (isto é, os parenteses presentes na sintaxe da função), podem aparecer vazios ou com algum dado de entrada (variável), se estiver vazio é como se a função já estivesse programada para acontecer daquela forma, se estiver com algum dado de entrada a função terá que ter algum valor recebido (como no exemplo acima, recebe algum nome como dado de entrada)
 - Chamada: A chamada é de suma importância, é com a chamada que a função irá ser executada, se você se esquecer da chamada sua função será anulada. Para "chamar" a função é nescessário que ao final do bloco da função, na próxima linha, você coloque o titulo da função e o parâmetro (obs: mesmo que o parâmetro esteja vazio você deve colocar).
 
+# *Programação orientada a objeto*
+ Com a programção orientada a objetos (POO) é possível criar classes e objetos para organizar e estruturar o código de maneira mais eficiente e reutilizável.
+
+ Antes de entender como se declara um POO é necessário apredermos as noções basicas desse assunto, como por exemplo, as chaves (macro componente) e os valores (micro componente.
+ Vamos supor que queremos criar um objeto de uma livraria...
+
+```Js
+const livraria = {
+funcionários : "David",
+clientes : "Lívia",
+}
+```
+Como podemos ver, tive que criar uma variável atribuindo uma especie de titulo para meu objeto, em seguida declarei minhas chaves (funcionários e clientes, note que eles vão ser um
+
+
 # Atividades desenvolvidas
 
 ## Operadores matemáticos 
